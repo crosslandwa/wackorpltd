@@ -1,0 +1,95 @@
+<script lang="ts">
+	let { children } = $props();
+</script>
+
+<svelte:head>
+	<link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJsb2dvIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgY2xhc3M9InMteV9iQ1hScmtyWWZQIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iIzE4OSIgcng9IjUwIiByeT0iNTAiIGNsYXNzPSJzLXlfYkNYUnJrcllmUCIvPjx0ZXh0IHg9IjM1IiB5PSIxNTAiIGZpbGw9IiMxMTEiIGZvbnQtc2l6ZT0iMTBlbSIgZm9udC1mYW1pbHk9Ik1vbm9zcGFjZSIgZm9udC13ZWlnaHQ9IjgwMCIgY2xhc3M9InMteV9iQ1hScmtyWWZQIj5XQUM8L3RleHQ+PHRleHQgeD0iNDAiIHk9IjI0MCIgZmlsbD0iIzExMSIgZm9udC1zaXplPSI3ZW0iIGZvbnQtZmFtaWx5PSJNb25vc3BhY2UiIGZvbnQtd2VpZ2h0PSI4MDAiIGNsYXNzPSJzLXlfYkNYUnJrcllmUCI+S29ycDwvdGV4dD48L3N2Zz4=">
+</svelte:head>
+
+<main>
+  <div class="center">
+	<h1>WAC Korp Ltd</h1>
+	{@render children?.()}
+  </div>
+</main>
+
+<footer>
+  <div class="center">
+    <h3>Legal</h3>
+    <p>
+      Company registration number: <span>10833574</span>
+      <br>
+      VAT registration number: <span>271718103</span>
+    </p>
+    <h3>Registered company address</h3>
+    <p>
+      W8a Knoll Business Centre
+      <br>
+      325-327 Old Shoreham Road
+      <br>
+      Hove
+      <br>
+      England
+      <br>
+      BN3 7GS
+    </p>
+  </div>
+</footer>
+
+<style>
+  :global(body) {
+    background-color: #189;
+    color: #111;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+    overscroll-behavior: none;
+  }
+
+  h1, h3 {
+    margin-top: 0;
+  }
+
+  main {
+    background-color: #EEE;
+    box-sizing: border-box;
+    min-height: 73vh;
+    padding: 1em 1em 0 1em;
+  }
+
+  main h1 {
+    color: #189;
+    font-size: 5em;
+    margin-bottom: 0.5em;
+  }
+
+  footer {
+    box-sizing: border-box;
+    line-height: 1.5em;
+    padding: 1em;
+    width: 100vw;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer h3 {
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  footer h3:nth-of-type(1) {
+    margin-top: 0;
+  }
+
+  footer h3 {
+    margin-top: 1em;
+  }
+
+  .center {
+    margin: auto;
+    max-width: 1200px;
+  }
+</style>
