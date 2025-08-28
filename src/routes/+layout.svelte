@@ -5,6 +5,7 @@
 </script>
 
 <svelte:head>
+  <title>WAC Korp Ltd</title>
 	<link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJsb2dvIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgY2xhc3M9InMtN0lQRjMyV2NxM3M4Ij48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0VFRSIgcng9IjUwIiByeT0iNTAiIGNsYXNzPSJzLTdJUEYzMldjcTNzOCIvPjx0ZXh0IHg9IjM1IiB5PSIxNTAiIGZpbGw9IiMxODkiIGZvbnQtc2l6ZT0iMTBlbSIgZm9udC1mYW1pbHk9Ik1vbm9zcGFjZSIgZm9udC13ZWlnaHQ9IjgwMCIgY2xhc3M9InMtN0lQRjMyV2NxM3M4Ij5XQUM8L3RleHQ+PHRleHQgeD0iNDAiIHk9IjI0MCIgZmlsbD0iIzE4OSIgZm9udC1zaXplPSI3ZW0iIGZvbnQtZmFtaWx5PSJNb25vc3BhY2UiIGZvbnQtd2VpZ2h0PSI4MDAiIGNsYXNzPSJzLTdJUEYzMldjcTNzOCI+S29ycDwvdGV4dD48L3N2Zz4=">
   <link rel="shortcut icon" type="image/x-icon" href={asset('/favicon.ico')}>
 </svelte:head>
