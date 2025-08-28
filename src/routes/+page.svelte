@@ -37,6 +37,7 @@
 
   p {
     line-height: 1.5em;
+    margin: 2em 0;
   }
 
   a, a:visited, a:hover, a:active {

@@ -8,8 +8,8 @@
 
 <main>
   <div class="center">
-	<h1>WAC Korp Ltd</h1>
-	{@render children?.()}
+    <h1>WAC Korp Ltd</h1>
+    {@render children?.()}
   </div>
 </main>
 
@@ -38,7 +38,7 @@
 
 <style>
   :global(body) {
-    background-color: #189;
+    background-color: #EEE;
     color: #111;
     font-family: monospace;
     font-size: 1em;
@@ -52,10 +52,7 @@
   }
 
   main {
-    background-color: #EEE;
-    box-sizing: border-box;
-    min-height: 73vh;
-    padding: 1em 1em 0 1em;
+    padding: 1em;
   }
 
   main h1 {
@@ -65,10 +62,9 @@
   }
 
   footer {
-    box-sizing: border-box;
+    background-color: #189;
     line-height: 1.5em;
     padding: 1em;
-    width: 100vw;
   }
 
   footer p {
