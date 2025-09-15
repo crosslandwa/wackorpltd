@@ -25,17 +25,17 @@
       <br>
       VAT registration number: <span>271718103</span>
     </p>
-    <h3>Registered company address</h3>
+    <h3>Registered office address</h3>
     <p>
-      W8a Knoll Business Centre
+      Spring Grove Stables
       <br>
-      325-327 Old Shoreham Road
+      Spring Grove
       <br>
-      Hove
+      Hebden Bridge
       <br>
       England
       <br>
-      BN3 7GS
+      HX7 8LR
     </p>
   </div>
 </footer>
